@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>I-SIGHT Eye Care & Contact Lens Clinic | Patna</title>
+
+<meta name="description" content="I-SIGHT Eye Care & Contact Lens Clinic, New Jaganpura Patna. Computerized eye testing, branded frames, sunglasses, contact lenses and premium lenses.">
+
+<style>
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family:Arial,Helvetica,sans-serif;
+}
+
+html{scroll-behavior:smooth}
+
+body{
+  background:#f7fbff;
+  color:#172033;
+  line-height:1.6;
+}
+
+header{
+  background:#ffffff;
+  padding:15px 6%;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  position:sticky;
+  top:0;
+  z-index:1000;
+  box-shadow:0 2px 12px rgba(0,0,0,.08);
+}
+
+.logo{
+  font-size:25px;
+  font-weight:800;
+  color:#087f8c;
+}
+
+.logo span{
+  display:block;
+  font-size:11px;
+  color:#555;
+  letter-spacing:2px;
+}
+
+nav a{
+  text-decoration:none;
+  color:#172033;
+  margin-left:18px;
+  font-weight:600;
+}
+
+nav a:hover{color:#087f8c}
+
+.hero{
+  min-height:78vh;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  text-align:center;
+  padding:60px 20px;
+  background:linear-gradient(135deg,#e9fbff,#ffffff);
+}
+
+.hero h1{
+  font-size:48px;
+  color:#087f8c;
+  margin-bottom:10px;
+}
+
+.hero h2{
+  font-size:25px;
+  margin-bottom:18px;
+}
+
+.hero p{
+  max-width:700px;
+  margin:auto;
+  font-size:18px;
+  color:#555;
+}
+
+.buttons{
+  margin-top:28px;
+}
+
+.btn{
+  display:inline-block;
+  padding:13px 24px;
+  margin:6px;
+  border-radius:30px;
+  text-decoration:none;
+  font-weight:bold;
+  background:#087f8c;
+  color:white;
+}
+
+.btn.secondary{
+  background:#172033;
+}
+
+section{
+  padding:65px 7%;
+}
+
+.title{
+  text-align:center;
+  margin-bottom:40px;
+}
+
+.title h2{
+  font-size:32px;
+  color:#087f8c;
+}
+
+.cards{
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  gap:22px;
+}
+
+.card{
+  background:white;
+  padding:28px;
+  border-radius:18px;
+  box-shadow:0 5px 20px rgba(0,0,0,.08);
+  text-align:center;
+}
+
+.icon{
+  font-size:42px;
+  margin-bottom:12px;
+}
+
+.card h3{
+  margin-bottom:8px;
+  color:#172033;
+}
+
+.about{
+  background:white;
+}
+
+.about-box{
+  max-width:900px;
+  margin:auto;
+  text-align:center;
+  font-size:17px;
+}
+
+.contact{
+  background:#e9fbff;
+}
+
+.contact-box{
+  max-width:800px;
+  margin:auto;
+  text-align:center;
+}
+
+.contact-box p{
+  margin:12px 0;
+  font-size:18px;
+}
+
+.map{
+  margin-top:25px;
+  width:100%;
+  height:300px;
+  border:0;
+  border-radius:18px;
+}
+
+footer{
+  background:#172033;
+  color:white;
+  text-align:center;
+  padding:30px 15px;
+}
+
+.float{
+  position:fixed;
+  right:18px;
+  bottom:18px;
+  background:#25d366;
+  color:white;
+  padding:13px 18px;
+  border-radius:30px;
+  text-decoration:none;
+  font-weight:bold;
+  box-shadow:0 4px 15px rgba(0,0,0,.2);
+  z-index:999;
+}
+
+@media(max-width:750px){
+  header{
+    padding:13px 4%;
+  }
+
+  nav{
+    display:none;
+  }
+
+  .hero h1{
+    font-size:36px;
+  }
+
+  .hero h2{
+    font-size:21px;
+  }
+
+  .cards{
+    grid-template-columns:1fr;
+  }
+
+  section{
+    padding:50px 5%;
+  }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+  <div class="logo">
+    I-SIGHT
+    <span>EYE CARE & CONTACT LENS CLINIC</span>
+  </div>
+
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#services">Services</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<section class="hero" id="home">
+  <div>
+    <h1>I-SIGHT</h1>
+
+    <h2>Eye Care & Contact Lens Clinic</h2>
+
+    <p>
+      Clear Vision. Better Life.<br>
+      Professional eye care, computerized eye testing,
+      branded frames, sunglasses and contact lenses.
+    </p>
+
+    <div class="buttons">
+      <a class="btn" href="tel:9973990423">📞 Call Now</a>
+
+      <a class="btn" href="https://wa.me/919973990423">
+        💬 WhatsApp
+      </a>
+
+      <a class="btn secondary" href="#contact">
+        📍 Visit Us
+      </a>
+    </div>
+  </div>
+</section>
+
+<section id="services">
+
+  <div class="title">
+    <h2>Our Services</h2>
+    <p>Complete eye care solutions under one roof</p>
+  </div>
+
+  <div class="cards">
+
+    <div class="card">
+      <div class="icon">👁️</div>
+      <h3>Computerized Eye Testing</h3>
+      <p>
+        Professional computerized eye testing
+        for accurate vision assessment.
+      </p>
+    </div>
+
+    <div class="card">
+      <div class="icon">👓</div>
+      <h3>Frames & Sunglasses</h3>
+      <p>
+        Stylish and branded frames and sunglasses
+        for every age and style.
+      </p>
+    </div>
+
+    <div class="card">
+      <div class="icon">🔵</div>
+      <h3>Premium Lenses</h3>
+      <p>
+        Anti-glare, Blue Cut and other premium
+        lens options.
+      </p>
+    </div>
+
+    <div class="card">
+      <div class="icon">🔍</div>
+      <h3>Contact Lenses</h3>
+      <p>
+        Contact lens consultation and suitable
+        lens options for your requirements.
+      </p>
+    </div>
+
+    <div class="card">
+      <div class="icon">🩺</div>
+      <h3>Eye Care Services</h3>
+      <p>
+        Friendly and professional eye care
+        guidance.
+      </p>
+    </div>
+
+    <div class="card">
+      <div class="icon">✨</div>
+      <h3>Free Eye Checkup</h3>
+      <p>
+        Ask our team about the current free
+        eye checkup service.
+      </p>
+    </div>
+
+  </div>
+</section>
+
+<section class="about" id="about">
+
+  <div class="title">
+    <h2>About I-SIGHT</h2>
+  </div>
+
+  <div class="about-box">
+
+    <p>
+      <strong>I-SIGHT Eye Care & Contact Lens Clinic</strong>
+      is an optical and eye care centre in Patna,
+      providing computerized eye testing, quality
+      frames, sunglasses, contact lenses and
+      premium lens solutions.
+    </p>
+
+    <br>
+
+    <p>
+      Our goal is simple:
+      <strong>Clear Your Vision, Brighten Your Life.</strong>
+    </p>
+
+  </div>
+
+</section>
+
+<section id="contact" class="contact">
+
+  <div class="title">
+    <h2>Visit I-SIGHT</h2>
+    <p>We would be happy to assist you.</p>
+  </div>
+
+  <div class="contact-box">
+
+    <p>📍 <strong>Address</strong></p>
+
+    <p>
+      New Jaganpura, Near Bharat Petrol Pump,
+      Patna - 800027, Bihar
+    </p>
+
+    <p>📞 <strong>9973990423</strong></p>
+
+    <p>💬 Call & WhatsApp Available</p>
+
+    <div class="buttons">
+
+      <a class="btn" href="tel:9973990423">
+        Call Now
+      </a>
+
+      <a class="btn" href="https://wa.me/919973990423">
+        WhatsApp
+      </a>
+
+      <a class="btn secondary"
+         href="https://www.google.com/maps/search/?api=1&query=I-SIGHT+Eye+Care+New+Jaganpura+Patna">
+        Google Maps
+      </a>
+
+    </div>
+
+    <iframe
+      class="map"
+      src="https://www.google.com/maps?q=New+Jaganpura+Patna+Bihar+800027&output=embed"
+      loading="lazy">
+    </iframe>
+
+  </div>
+
+</section>
+
+<a class="float" href="https://wa.me/919973990423">
+  💬 WhatsApp
+</a>
+
+<footer>
+
+  <h3>I-SIGHT</h3>
+
+  <p>
+    Eye Care & Contact Lens Clinic
+  </p>
+
+  <p>
+    New Jaganpura, Near Bharat Petrol Pump,
+    Patna - 800027
+  </p>
+
+  <p>
+    © 2026 I-SIGHT. All Rights Reserved.
+  </p>
+
+</footer>
+
+</body>
+</html>
